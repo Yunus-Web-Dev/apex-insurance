@@ -1,0 +1,106 @@
+:root {
+    --cta-buttons-bg: rgba(229, 232, 238, 1);
+    --cta-buttons-color: rgba(44, 52, 56, 1);
+    --cta-buttons-color-hover: rgba(9, 88, 128, 1);
+}
+
+header {
+    /* border: 2px solid red; */
+    margin-left: calc(11vw - 19.2px);
+    margin-right: calc(1.25vw + 12px);
+    padding-top: calc(1.25vw + 12px);
+    padding-bottom: calc(2.06vw + 9.4px);
+    height: calc(4.56vw + 57.4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .apex-insurance-logo-btn {
+    width: calc(2.25vw + 152.8px);
+    /*196px 160px*/
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header .apex-insurance-logo-btn .apex-insurance-logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+header .cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+header .cta-buttons button {
+    width: 208px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: var(--cta-buttons-bg);
+    color: var(--cta-buttons-color);
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+
+}
+
+header .cta-buttons button:hover {
+    transition: 1s;
+    color: var(--cta-buttons-color-hover);
+}
+
+header .cta-buttons .cta-button-union {
+    width: 139px;
+    height: 60px;
+}
+
+header .cta-buttons .cta-button-eye-lang {
+    width: 134px;
+    height: 60px;
+}
+
+header .cta-buttons .cta-button-call-line-send {
+    width: 257px;
+    height: 60px;
+}
+
+
+header .mobile-cta-button-lang-call {
+    width: 120px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+
+@media (max-width:1220px) {
+    header .cta-buttons {
+        display: none;
+    }
+
+    header .mobile-cta-button-lang-call {
+        display: flex;
+    }
+}

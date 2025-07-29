@@ -1,0 +1,83 @@
+:root {
+    --footer-bg: rgba(229, 232, 238, 1);
+    --footer-ul-li-color: rgba(119, 125, 128, 1);
+}
+
+footer {
+    margin-left: calc(11vw - 19.2px);
+    margin-right: calc(1.25vw + 12px);
+    margin-bottom: 46px;
+    padding-top: 42px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 42px;
+    border-radius: 20px;
+    bottom: -20px;
+    position: relative;
+    background-color: var(--footer-bg);
+}
+
+.socials-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.apex-insurance-logo-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.social-btns-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.info-for-users {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+.info-for-users ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-for-users ul li {
+    list-style: none;
+    color: var(--footer-ul-li-color);
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.line-footer {
+    margin: 30px 0px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(145, 150, 153, 1);
+}
+
+.info-for-users-paragraph {
+    margin-top: 45px;
+    display: flex;
+}
+
+.info-for-users-paragraph p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--footer-ul-li-color);
+}
+
+.socials-btns-img {
+    width: calc(1vw + 36.8px);
+    height: calc(1vw + 36.8px);
+}
