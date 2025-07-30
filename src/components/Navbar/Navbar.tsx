@@ -8,49 +8,49 @@ const Navbar = () => {
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/theme-change.svg', alt: 'Сменить тему' }]}
+                        icons={[{ src: '/theme-change.svg', alt: 'Сменить тему' }]}
                         aria-label="Сменить тему"
                     />
                 </li>
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/room.svg', alt: 'Локация' }]}
+                        icons={[{ src: '/room.svg', alt: 'Локация' }]}
                         aria-label="Локация"
                     />
                 </li>
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/user-24.svg', alt: 'Профиль' }]}
+                        icons={[{ src: '/user-24.svg', alt: 'Профиль' }]}
                         aria-label="Профиль"
                     />
                 </li>
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/briefcase-24.svg', alt: 'Портфель' }]}
+                        icons={[{ src: '/briefcase-24.svg', alt: 'Портфель' }]}
                         aria-label="Портфель"
                     />
                 </li>
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/feed-24.svg', alt: 'Лента новостей' }]}
+                        icons={[{ src: '/feed-24.svg', alt: 'Лента новостей' }]}
                         aria-label="Лента"
                     />
                 </li>
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/apps-24.svg', alt: 'Приложения' }]}
+                        icons={[{ src: '/apps-24.svg', alt: 'Приложения' }]}
                         aria-label="Приложения"
                     />
                 </li>
                 <li>
                     <Button
                         className="navbar-button"
-                        icons={[{ src: '/public/search-16.svg', alt: 'Поиск' }]}
+                        icons={[{ src: '/search-16.svg', alt: 'Поиск' }]}
                         aria-label="Поиск"
                     />
                 </li>
