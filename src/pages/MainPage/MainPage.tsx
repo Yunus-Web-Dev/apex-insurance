@@ -9,7 +9,7 @@ import './MainPage.css'
 const MainPage = () => {
     const slides = [
         <div className="slide-content">
-            <Photo src="/public/slide-1.jpg" alt="Slide 1" className="slide-1-img" />
+            <Photo src="/slide-1.jpg" alt="Slide 1" className="slide-1-img" />
             <div className="read-more-container">
                 <Span children='Страхование ответственности' />
                 <Heading level={2} children='Оформите ОСГО ВТС онлайн' className="slide-heading" />
@@ -23,7 +23,7 @@ const MainPage = () => {
             </div>
         </div>,
         <div className="slide-content">
-            <Photo src="/public/slide-2.png" alt="Slide 2" className="slide-2-img" />
+            <Photo src="/slide-2.png" alt="Slide 2" className="slide-2-img" />
             <div className="read-more-container">
                 <Span children='Страхование ответственности' />
                 <Heading level={2} children='Оформите ОСГО ВТС онлайн' className="slide-heading" />
@@ -37,7 +37,7 @@ const MainPage = () => {
             </div>
         </div>,
         <div className="slide-content">
-            <Photo src="/public/slide-3.png" alt="Slide 3" className="slide-3-img" />
+            <Photo src="/slide-3.png" alt="Slide 3" className="slide-3-img" />
             <div className="read-more-container">
                 <Span children='Страхование ответственности' />
                 <Heading level={2} children='Оформите ОСГО ВТС онлайн' className="slide-heading" />
