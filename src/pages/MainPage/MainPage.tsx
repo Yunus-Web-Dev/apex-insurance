@@ -8,42 +8,42 @@ import './MainPage.css'
 const MainPage = () => {
     const slides = [
         <div className="slide-content">
-            <Photo src="./public/slide-1.jpg" alt="Slide 1" className="slide-1-img" />
+            <Photo src="/public/slide-1.jpg" alt="Slide 1" className="slide-1-img" />
             <div className="read-more-container">
                 <Span children='Страхование ответственности' />
                 <Heading level={2} children='Оформите ОСГО ВТС онлайн' className="slide-heading"/>
                 <Span children='И получите ссылку на E-polis по смс' />
                 <Button
                     className="read-more"
-                    icons={[{ src: './public/arrow-right.svg', alt: 'terms' }]}
+                    icons={[{ src: '/public/arrow-right.svg', alt: 'terms' }]}
                 >
                     Подробнее
                 </Button>
             </div>
         </div>,
         <div className="slide-content">
-            <Photo src="./public/slide-2.png" alt="Slide 2" className="slide-2-img" />
+            <Photo src="/public/slide-2.png" alt="Slide 2" className="slide-2-img" />
             <div className="read-more-container">
                 <Span children='Страхование ответственности' />
                 <Heading level={2} children='Оформите ОСГО ВТС онлайн'  className="slide-heading"/>
                 <Span children='И получите ссылку на E-polis по смс' />
                 <Button
                     className="read-more"
-                    icons={[{ src: './public/arrow-right.svg', alt: 'terms' }]}
+                    icons={[{ src: '/public/arrow-right.svg', alt: 'terms' }]}
                 >
                     Подробнее
                 </Button>
             </div>
         </div>,
         <div className="slide-content">
-            <Photo src="./public/slide-3.png" alt="Slide 3" className="slide-3-img" />
+            <Photo src="/public/slide-3.png" alt="Slide 3" className="slide-3-img" />
             <div className="read-more-container">
                 <Span children='Страхование ответственности' />
                 <Heading level={2} children='Оформите ОСГО ВТС онлайн'  className="slide-heading"/>
                 <Span children='И получите ссылку на E-polis по смс' />
                 <Button
                     className="read-more"
-                    icons={[{ src: './public/arrow-right.svg', alt: 'terms' }]}
+                    icons={[{ src: '/public/arrow-right.svg', alt: 'terms' }]}
                 >
                     Подробнее
                 </Button>
@@ -64,7 +64,7 @@ const MainPage = () => {
                     </div>
                     <Button
                         className="read-more"
-                        icons={[{ src: './public/arrow-black.svg', alt: 'terms' }]}
+                        icons={[{ src: '/public/arrow-black.svg', alt: 'terms' }]}
                     >
                         Все продукты
                     </Button>

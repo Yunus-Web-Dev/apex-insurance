@@ -7,32 +7,32 @@ const Footer = () => {
                 <Button
                     className="apex-insurance-logo-btn"
                     icons={[
-                        { src: './public/apex-insurance-logo.svg', alt: 'apex-insurance-logo', className: 'apex-insurance-logo-img' },
+                        { src: '/public/apex-insurance-logo.svg', alt: 'apex-insurance-logo', className: 'apex-insurance-logo-img' },
                     ]}
                 />
                 <div className="social-btns-footer">
                     <Button
                         className="apex-insurance-logo-btn"
                         icons={[
-                            { src: './public/facebook.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
+                            { src: '/public/facebook.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
                         ]}
                     />
                     <Button
                         className="apex-insurance-logo-btn"
                         icons={[
-                            { src: './public/instagram.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
+                            { src: '/public/instagram.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
                         ]}
                     />
                     <Button
                         className="apex-insurance-logo-btn"
                         icons={[
-                            { src: './public/linkedin.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
+                            { src: '/public/linkedin.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
                         ]}
                     />
                     <Button
                         className="apex-insurance-logo-btn"
                         icons={[
-                            { src: './public/gmail.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
+                            { src: '/public/gmail.svg', alt: 'apex-insurance-logo', className: 'socials-btns-img' },
                         ]}
                     />
                 </div>
